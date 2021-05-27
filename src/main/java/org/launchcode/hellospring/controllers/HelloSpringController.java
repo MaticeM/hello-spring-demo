@@ -42,16 +42,16 @@ public class HelloSpringController {
 
     //10.3 in book
     //lives at /hello/form because of controller level and method level
-    @GetMapping("form")
-    public String helloForm() {
-        return "<html>" +
-                "<body>" +
-                "<form action='hello' method='post'>" + //submit a request to /hello
-                "<input type = 'text' name='name'>" +
-                "<input type = 'submit' value = 'Greet me!'>" +
-                "</form>" +
-                "</body>" +
-                "</html>";
-    }
+//    @GetMapping("form")
+//    public String helloForm() {
+//        return "<html>" +
+//                "<body>" +
+//                "<form action='hello' method='post'>" + //submit a request to /hello
+//                "<input type = 'text' name='name'>" +
+//                "<input type = 'submit' value = 'Greet me!'>" +
+//                "</form>" +
+//                "</body>" +
+//                "</html>";
+//    }
 }
 
